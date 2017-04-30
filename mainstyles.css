@@ -1,0 +1,17 @@
+/* Primary CSS styles sheet for all webpages */
+
+header {
+    text-align: center;
+    font-size: 80px;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 0.2em;
+    padding: 0.1em;
+}
+
+img.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
