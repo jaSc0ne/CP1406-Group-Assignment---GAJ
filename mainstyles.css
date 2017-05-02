@@ -8,6 +8,7 @@ header {
     margin-top: 0.2em;
     padding: 0.1em;
 }
+body {background-color:gainsboro;}
 
 img.center {
     display: block;
