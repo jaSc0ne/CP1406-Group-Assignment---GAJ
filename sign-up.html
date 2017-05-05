@@ -21,15 +21,42 @@
         <li class="navlink"><a href="sign-up.html">Sign-Up</a></li>
     </ul>
 
-<!-- Details to be included -->
-    <ul>
-        <li>Name</li>
-        <li>Email Address</li>
-        <li>Phone Number</li>
-        <li>Member Type (Sponser, Player, etc...)</li>
-        <li>Any Additional Information (dependent on Membership Type)</li>
-        <li>Tick box for BRO Newsletter to be emailed</li>
-    </ul>
+    <!-- Interactive Sign-up Form Online -->
+    <p>
+        <label class="name" for "username">
+            <span style = "font-size: 36px; font-family: Impact, Haettenschweiler, 'Franklin Gothic Bold', 'Arial Black', sans-serif;">Name:</span>
+        </label>
+    </p>
+    <p>
+        <input type="text" name="username" id="username" size = "25">
+    </p>
+    <p>
+        <span for="for" class="email_address" style="" email_address="email_address"></span>
+        <label for class="email_address" style="font-family: Impact, Haettenschweiler, 'Franklin Gothic Bold', 'Arial Black', sans-serif" "email_address">
+        <span style="font-size: 36px">Email Address: </span>
+        </label>
+    </p>
+    <p>
+        <input type="text" name="email_address" id="email_address" size="25">
+    </p>
+    <p>
+        <label class="phone_number" for "phone_number">
+        <span style = "font-size: 36px; font-family: Impact, Haettenschweiler, 'Franklin Gothic Bold', 'Arial Black', sans-serif;">Phone Number:
+            </span>
+        </label>
+    </p>
+    <p>
+        <input type="text" name="phone_number" id="phone_number" size="25">
+    </p>
+    <p>
+         <span style = "font-size: 24px; font-family: Impact, Haettenschweiler, 'Franklin Gothic Bold', 'Arial Black', sans-serif;">Member Type:
+            </span>
+        <select class="Member_Type">
+            <option id="Sponser">Sponser</option>
+            <option id="Player">Player</option>
+        </select>
+    </p>
+    <input type="checkbox" name="newsletter" value="newsletter">Would you like to receive our Newsletter?
 
 </body>
 </html>

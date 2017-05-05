@@ -44,3 +44,9 @@ p {
     font-size: 25px;
 }
 
+body {
+    background-color: gainsboro;
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+    text-align: center;
+}
+
