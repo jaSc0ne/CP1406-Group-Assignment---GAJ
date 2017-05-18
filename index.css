@@ -1,0 +1,71 @@
+/* Stylesheet for the Index page (to be used exclusively for the index page)*/
+
+/* Get rid of default padding and margin */
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+header, nav, article, aside, section, footer{
+    display: block;
+}
+
+
+/* Centering website */
+.container {
+    width: 1200px;
+    margin: 0px auto;
+
+}
+
+.clear {
+    clear: both;
+}
+
+.logo {
+    width: 50px;
+    height: 85px;
+    float: left;
+}
+
+.top_nav {
+    float: left;
+    width: 1200px;
+    margin: auto;
+
+}
+
+.top_nav ul li {
+    float: left;
+    padding: 35px 20px;
+    font-size: 22px;
+
+}
+
+/* Float aside and main section */
+.left_side {
+    float: left;
+    width: 700px;
+    text-align: left;
+}
+
+.left_side article {
+    margin-right: 10px;
+    padding: 10px;
+}
+
+.right_side {
+    float: right;
+    width: 380px;
+    text-align: left;
+}
+
+.right_side div {
+    padding: 10px;
+    margin: 0px 0px 10px 0px;
+}
+
+body {
+    text-align: center;
+}
