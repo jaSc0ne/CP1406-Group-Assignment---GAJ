@@ -11,7 +11,7 @@
     <header>Barrier Reef Orchestra</header>
 
     <!-- Navigation Bar that links all pages for the website to each other -->
-    <ul class="navbar">
+     <ul class="navbar">
         <li class="navlink"><a href="index.html">Home</a></li>
         <li class="navlink"><a href="announcements.html">Announcements</a></li>
         <li class="navlink"><a href="history.html">BRO History</a></li>
@@ -25,30 +25,35 @@
     <!-- Interactive Sign-up Form Online -->
     <p>
         <label class="name" for "username">
-            <span style = "font-size: 36px; font-family: Impact, Haettenschweiler, 'Franklin Gothic Bold', 'Arial Black', sans-serif;">Name:</span>
+            <span style = "font-size: 25px; font-family: Impact, Haettenschweiler, 'Franklin Gothic Bold', 'Arial Black', sans-serif;">Name:</span>
         </label>
-    </p>
-    <p>
-        <input type="text" name="username" id="username" size = "25">
-    </p>
+	</p>
+    <div class="input-group">
+                          						<span class="input-group-addon">&#x270e;</span>
+                    								<input type="text" class="form-control" id="inputSuccess1" aria-describedby="inputSuccess1Status" placeholder="First Name" name="name" onkeyup="validateTextName()">
+                								</div>
     <p>
         <span for="for" class="email_address" style="" email_address="email_address"></span>
         <label for class="email_address" style="font-family: Impact, Haettenschweiler, 'Franklin Gothic Bold', 'Arial Black', sans-serif" "email_address">
-        <span style="font-size: 36px">Email Address: </span>
+        <span style="font-size: 25">Email Address: </span>
         </label>
     </p>
-    <p>
-        <input type="text" name="email_address" id="email_address" size="25">
-    </p>
+    
+    <div class="input-group">
+                	<span class="input-group-addon">@</span>
+                   <input type="text" class="form-control" id="inputSuccess3" aria-describedby="inputSuccess3Status" placeholder="Email Address" name="email" onkeyup="validateEmail()">
+                	</div>
     <p>
         <label class="phone_number" for "phone_number">
-        <span style = "font-size: 36px; font-family: Impact, Haettenschweiler, 'Franklin Gothic Bold', 'Arial Black', sans-serif;">Phone Number:
+        <span style = "font-size: 25; font-family: Impact, Haettenschweiler, 'Franklin Gothic Bold', 'Arial Black', sans-serif;">Phone Number:
             </span>
         </label>
     </p>
-    <p>
-        <input type="text" name="phone_number" id="phone_number" size="25">
-    </p>
+    
+    <div class="input-group">
+                      							<span class="input-group-addon">&#x2706;</span>
+                      							<input type="text" class="form-control" id="inputSuccess4" aria-describedby="inputSuccess4Status" placeholder="0XXXXXXXXX" name="phonenumber" onkeyup="validateNumber()">
+                  							</div>
     <p>
          <span style = "font-size: 24px; font-family: Impact, Haettenschweiler, 'Franklin Gothic Bold', 'Arial Black', sans-serif;">Member Type:
             </span>
