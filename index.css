@@ -33,14 +33,29 @@ header, nav, article, aside, section, footer{
     float: left;
     width: 1200px;
     margin: auto;
+    background-color: aqua;
 
 }
 
 .top_nav ul li {
     float: left;
     padding: 35px 20px;
-    font-size: 22px;
+    font-size: 27px;
 
+}
+
+.top_nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.top_nav ul li a:hover {
+    color: black;
+    background-color: aquamarine;
+}
+
+.top_nav ul li a:active {
+    background-color: aquamarine;
 }
 
 /* Float aside and main section */
@@ -64,4 +79,17 @@ header, nav, article, aside, section, footer{
 .right_side div {
     padding: 10px;
     margin: 0px 0px 10px 0px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }
