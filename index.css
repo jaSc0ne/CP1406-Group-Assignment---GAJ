@@ -14,9 +14,10 @@ header, nav, article, aside, section, footer{
 
 /* Centering website */
 .maincontainer {
-    width: 1200px;
+    width: 1500px;
     margin: 0px auto;
     text-align: center;
+    background-color: white;
 }
 
 .clear {
@@ -31,7 +32,7 @@ header, nav, article, aside, section, footer{
 
 .top_nav {
     float: left;
-    width: 1200px;
+    width: 1500px;
     margin: auto;
     background-color: aqua;
 
@@ -61,8 +62,42 @@ header, nav, article, aside, section, footer{
 /* Float aside and main section */
 .left_side {
     float: left;
-    width: 700px;
+    width: 1100px;
     text-align: left;
+}
+
+.img center {
+    padding: 10px;
+    margin: auto auto;
+}
+
+.people_image {
+    float: left;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+.people_abstract {
+    float: left;
+    width: 800px;
+    margin-right: 10px;
+    padding: 10px;
+    border: 2px solid red;
+}
+
+.people_abstract h2 {
+    font-size: 30px;
+}
+
+.people_abstract h3 {
+    font-size: 25px;
+    font-style: italic;
+}
+
+.people_abstract p {
+    font-size: 20px;
 }
 
 .left_side article {
@@ -92,4 +127,8 @@ h2 {
 a {
     text-decoration: none;
     color: black;
+}
+
+body {
+    background-color: darkturquoise;
 }
