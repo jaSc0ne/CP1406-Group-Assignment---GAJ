@@ -14,10 +14,11 @@ header, nav, article, aside, section, footer{
 
 /* Centering website */
 .maincontainer {
-    width: 1500px;
-    margin: 0px auto;
-    text-align: center;
-    background-color: white;
+	width: 1500px;
+	margin: 0px auto;
+	background-color: white;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-style: inherit;
 }
 
 .clear {
