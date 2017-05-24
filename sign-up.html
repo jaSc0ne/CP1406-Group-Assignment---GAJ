@@ -3,25 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <title>Barrier Reef Orchestra</title>
-    <link href="mainstyles.css" rel="stylesheet" type="text/css">
+    <link href="index.css" rel="stylesheet" type="text/css">
     <link rel="icon" href="BRO%20icon.png" type="image/x-icon">
 </head>
 <body>
-
-    <header>Barrier Reef Orchestra</header>
-
-    <!-- Navigation Bar that links all pages for the website to each other -->
-     <ul class="navbar">
-        <li class="navlink"><a href="index.html">Home</a></li>
-        <li class="navlink"><a href="announcements.html">Announcements</a></li>
-        <li class="navlink"><a href="history.html">BRO History</a></li>
-        <li class="navlink"><a href="people.html">Meet the Team</a></li>
-        <li class="navlink"><a href="About-us.html">About BRO</a></li>
-        <li class="navlink"><a href="gallery.html">Gallery</a></li>
-        <li class="navlink"><a href="contact-us.html">Contact Us</a></li>
-        <li class="navlink"><a href="sign-up.html">Sign-Up</a></li>
-    </ul>
-
+<div class="maincontainer">
+    <header>
+        <a href="index.html">
+            <img src="NEW-BRO-LOGO-BLUE-ORANGE.png" alt="Barrier Reef Orchestra Logo" class="biglogo"/>
+        </a>
+        <br>
+        <nav class="top_nav">
+            <a href="index.html" alt="small logo" >
+                <img src="full_sized_icon_no_background.png" alt="small logo" class="logo" />
+            </a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li class="active"><a href="announcements.html">Announcements</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="history.html">BRO History</a></li>
+                <li><a href="people.html">Musicians</a></li>
+                <li><a href="About-us.html">About BRO</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact-us.html">Contact Us</a></li>
+                <li><a href="sign-up.html">Sign-Up</a></li>
+            </ul>
+        </nav>
+        <div class="clear"></div>
+    </header>
+    <br>
     <!-- Interactive Sign-up Form Online -->
     <p>
         <label class="name" for "username">
@@ -29,9 +39,10 @@
         </label>
 	</p>
     <div class="input-group">
-                          						<span class="input-group-addon">&#x270e;</span>
-                    								<input type="text" class="form-control" id="inputSuccess1" aria-describedby="inputSuccess1Status" placeholder="Name" name="name" onkeyup="validateTextName()">
-                								</div>
+        <span class="input-group-addon">&#x270e;</span>
+        <input type="text" class="form-control" id="inputSuccess1" aria-describedby="inputSuccess1Status" placeholder="Name" name="name" onkeyup="validateTextName()">
+    </div>
+    <br>
     <p>
         <span for="for" class="email_address" style="" email_address="email_address"></span>
         <label for class="email_address" style="font-family: Impact, Haettenschweiler, 'Franklin Gothic Bold', 'Arial Black', sans-serif" "email_address">
@@ -40,29 +51,36 @@
     </p>
     
     <div class="input-group">
-                	<span class="input-group-addon">@</span>
-                   <input type="text" class="form-control" id="inputSuccess3" aria-describedby="inputSuccess3Status" placeholder="Email Address" name="email" onkeyup="validateEmail()">
-                	</div>
+        <span class="input-group-addon">@</span>
+        <input type="text" class="form-control" id="inputSuccess3" aria-describedby="inputSuccess3Status" placeholder="Email Address" name="email" onkeyup="validateEmail()">
+    </div>
+    <br>
     <p>
         <label class="phone_number" for "phone_number">
-        <span style = "font-size: 25; font-family: Impact, Haettenschweiler, 'Franklin Gothic Bold', 'Arial Black', sans-serif;">Phone Number:
-            </span>
+        <span style = "font-size: 25; font-family: Impact, Haettenschweiler, 'Franklin Gothic Bold', 'Arial Black', sans-serif;">Phone Number:</span>
         </label>
     </p>
-    
+
     <div class="input-group">
-                      							<span class="input-group-addon">&#x2706;</span>
-                      							<input type="text" class="form-control" id="inputSuccess4" aria-describedby="inputSuccess4Status" placeholder="0XXXXXXXXX" name="phonenumber" onkeyup="validateNumber()">
-                  							</div>
+        <span class="input-group-addon">&#x2706;</span>
+        <input type="text" class="form-control" id="inputSuccess4" aria-describedby="inputSuccess4Status" placeholder="0XXXXXXXXX" name="phonenumber" onkeyup="validateNumber()">
+    </div>
+    <br>
     <p>
-         <span style = "font-size: 24px; font-family: Impact, Haettenschweiler, 'Franklin Gothic Bold', 'Arial Black', sans-serif;">Member Type:
-            </span>
+        <span style = "font-size: 24px; font-family: Impact, Haettenschweiler, 'Franklin Gothic Bold', 'Arial Black', sans-serif;">Member Type:
+        </span>
         <select class="Member_Type">
             <option id="Sponser">Sponser</option>
             <option id="Player">Player</option>
         </select>
     </p>
+    <br>
     <input type="checkbox" name="newsletter" value="newsletter">Would you like to receive our Newsletter?
+    <br>
+    <br>
+    <input type="submit" name="submit" value="Submit sign-up">
+    <input type="reset" name="reset" value="Clear form">
+</div>
 
 </body>
 </html>
