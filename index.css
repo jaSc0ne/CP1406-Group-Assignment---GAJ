@@ -66,7 +66,6 @@ header, nav, article, aside, section, footer{
     float: left;
     width: 1100px;
     text-align: left;
-    background-color: darkturquoise;
 }
 .left_side_events {
     float: left;
@@ -99,7 +98,7 @@ header, nav, article, aside, section, footer{
     padding: 10px;
 }
 
-.committe_name {
+.committee_name {
     font-style: italic;
 }
 
@@ -174,5 +173,5 @@ a {
 }
 
 body {
-    background-color: darkturquoise;
+    background-color: white;
 }
